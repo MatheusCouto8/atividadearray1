@@ -16,5 +16,15 @@ console.log(include);
 
 //splice, remove elementos
 listaDeCores.splice(1,1); //o primeiro parâmetro (1) define a posição onde o elemento será removido, 
+//o segundo (1) mostra quantos elementos serão apagados
 console.log("-_-_-Lista com elementos apagados-_-_-")
 console.log(listaDeCores); 
+
+//toString, transforma a array em uma string
+let listacor = listaDeCores.toString();
+console.log("---Lista em string---");
+console.log(listacor);
+
+//join, especifica um separador
+let listadecor2 = listaDeCores.join (" / ");
+console.log(listadecor2);
