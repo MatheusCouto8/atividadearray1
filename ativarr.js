@@ -27,4 +27,5 @@ console.log(listacor);
 
 //join, especifica um separador
 let listadecor2 = listaDeCores.join (" / ");
+console.log("---Lista com separador---");
 console.log(listadecor2);
