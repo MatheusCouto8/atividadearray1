@@ -29,3 +29,8 @@ console.log(listacor);
 let listadecor2 = listaDeCores.join (" / ");
 console.log("---Lista com separador---");
 console.log(listadecor2);
+
+//length, usado para anexar elementos a array
+listaDeCores[1] = "2-yellow";
+listaDeCores[listaDeCores.length] = "0-blue";
+console.log(listaDeCores);
